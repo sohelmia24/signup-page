@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(to left, #FEACF5, #FFF2B2);
+}
+
+.wrapper {
+    max-width: 390px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    margin: 100px auto;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.075);
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.sub-title {
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 400;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+.input-fields {
+    position: relative;
+    width: 100%;
+    height: 55px;
+}
+
+.input-fields input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 0 10px 0 45px;
+    background: #EFE4F1;
+    border-radius: 10px;
+}
+
+.input-fields i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #474545;
+}
+
+.line {
+    font-weight: 400;
+}
+
+.signup-btn {
+    background: #9C29B2;
+    color: #fff;
+}
+
+.signup-btn,
+.signin-google-btn {
+    outline: none;
+    border: none;
+    margin: 20px 0;
+    width: 100%;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 0.2s;
+}
+
+.signup-btn:hover {
+    background-color: transparent;
+    color: #9C29B2;
+    border-color: #9C29B2;
+}
+
+.signin-google-btn {
+    background: transparent;
+    color: #9C29B2;
+    border-color: #9C29B2;
+}
+
+.signin-google-btn:hover {
+    background-color: #9C29B2;
+    border-color: transparent;
+    color: #fff;
+}
+
+.login-area {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.login-area a {
+    text-decoration: none;
+    color: #9C29B2;
+    font-weight: 500;
+}
